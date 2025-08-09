@@ -137,3 +137,65 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# ===== Arquivos e pastas Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Logs
+*.log
+
+# Configurações locais
+*.env
+*.env.local
+.env.*
+
+# Banco de dados local (SQLite, por exemplo)
+*.sqlite3
+*.db
+
+# Testes
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+
+# Cache do mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs / Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook (se usar para testes)
+.ipynb_checkpoints/
+
+# ===== Específico para FastAPI =====
+# Cache gerado pelo uvicorn/hot reload
+*.pid
+
